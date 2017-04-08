@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title> new document </title>  
+  <meta http-equiv="Content-Type" content="text/html;utf-8"/>   
+  <script type="text/javascript">  
+    function openWindow()
+    {
+        var mywind=confirm('确认打开新网站吗？');
+        if(my=true)
+        {
+            var my=prompt('新网站');
+            if(my!=null)
+            {
+                window.open('http://www.imooc.com/','_blank','width=400,height=500,menubar=no,toolbar=no');
+            }
+            else{
+                document.write('再见');
+            }
+        }
+        else{
+            document.write('再见');
+        }
+    }
+    
+  </script> 
+ </head> 
+ <body> 
+	  <input type="button" value="新窗口打开网站" onclick="openWindow()" /> 
+ </body>
+</html>

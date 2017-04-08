@@ -1,0 +1,62 @@
+.box {
+    width: 75px;
+    height: 75px;
+    background: #ded9d9;
+    border-radius: 15px;
+    border: 5px solid #f3efef;
+    display: flex;
+    justify-content: flex-end;
+    align-content: space-around;
+    flex-wrap: wrap;
+}
+
+.al {
+    width: 15px;
+    height: 15px;
+    border-radius: 10px;
+    background: black;
+    margin: 5px;
+}
+
+.b {
+    width: 75px;
+    height: 75px;
+    background: #ded9d9;
+    border-radius: 15px;
+    border: 5px solid #f3efef;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    flex-direction: column;
+}
+
+.bl {
+    width: 15px;
+    height: 15px;
+    border-radius: 10px;
+    background: black;
+    margin: 5px;
+}
+
+.x {
+    width: 75px;
+    height: 75px;
+    background: #ded9d9;
+    border-radius: 15px;
+    border: 5px solid #f3efef;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bc {
+    display: flex;
+    flex-basis: 100%;
+}
+
+.ac {
+    justify-content: center
+}
+
+.cc {
+    justify-content: space-between;
+}/*六点结束，九点开始*/

@@ -1,0 +1,19 @@
+.wrapper {
+    background-color: lawngreen;
+}
+
+.photo {
+    background-image: url('./imgs/cat.jpg');
+    height: 200px;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: 50% 50%;
+}
+
+.big {
+    background-image: url("./imgs/normal/small-cat.jpg");
+    height: 150px;
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}

@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: black;
+}
+
+.box {
+    width: 75px;
+    height: 75px;
+    background: #ded9d9;
+    border-radius: 15px;
+    border: 5px solid #f3efef;
+    display: flex;
+}
+
+.sx, .yx {
+    width: 15px;
+    height: 15px;
+    border-radius: 10px;
+    background: black;
+    margin: 5px;
+}
+
+.yx {
+    align-self: center;
+}
+
+
+/*结束*/
+
+.by {
+    justify-content: space-around;
+}
+
+.index {
+    align-self: flex-end;
+}
+
+
+/*两点结束*/
+
+
+/*三点开始*/
+
+.she {
+    align-items: center
+}
+
+.bx {
+    align-self: flex-end;
+}
+/*三个项目结束四个项目开始*/

@@ -1,0 +1,33 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>返回值return探究</title>
+    <script>
+        function bj(x,y){
+            if(x>y)
+            {
+                return x;
+            }
+            else if(x<y){
+                return y;
+            }
+            else{
+                return("相等");
+            }
+        }
+       bj(5,4);
+       bj(6,3);
+       bj(7,8);
+       bj(3,3);
+        document.write("输出的值为："+bj(5,4)+"<br/>");
+        document.write("较大值为："+bj(6,3)+"<br/>");
+        document.write("较大值为："+ bj(7,8));
+         document.write("较大值为："+bj(3,3)+"<br/>");
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

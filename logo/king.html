@@ -1,0 +1,172 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            border: 3px solid black;
+            background: #f3f2f2;
+        }
+        
+        h3 {
+            font-size: 20px;
+            text-align: center;
+            margin: 20px 0 10px;
+        }
+        
+        .small {
+            display: inline-block;
+            width: 50%;
+            text-align: center;
+            float: left;
+        }
+        
+        .check {
+            border-bottom: 3px solid green;
+        }
+        
+        .apple {
+            display: inline-block;
+            width: 30%;
+            text-align: center;
+            float: left;
+        }
+        
+        .apple1 {
+            display: inline-block;
+            width: 40%;
+            text-align: center;
+            color: green;
+        }
+        
+        .banana {
+            display: inline-block;
+            width: 30%;
+            text-align: -webkit-right;
+            float: right;
+        }
+        .apple1:after {
+            border: 2px solid #d2c9c8;
+            border-bottom-width: 0;
+            border-left-width: 0;
+            content: " ";
+            top: 18%;
+            right: 0;
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            -webkit-transform: translateX(-120%) rotate(45deg);
+            transform: translateX(-120%) rotate(45deg);
+        }
+        .orange {
+            display: inline-block;
+            width: 60%;
+            height: 40px;
+            text-align: center;
+        }
+        
+        .pineapple,
+        .pineapple1 {
+            display: inline-block;
+            width: 20%;
+            height: 25px;
+            background: green;
+            color: white;
+            transform: translateY(5px);
+        }
+        
+        .pineapple {
+            float: left;
+        }
+        
+        .pineapple1 {
+            float: right;
+        }
+        
+        .shuru {
+            width: 80%;
+            height: 100%;
+        }
+        
+        .big,
+        .tika {
+            background: white;
+            height: 40px;
+            line-height: 40px;
+            margin-bottom: 3px;
+        }
+        
+        .tixin {
+            height: 40px;
+            line-height: 40px;
+        }
+        
+        .all {
+            background: white;
+            margin-top: 10px;
+        }
+        
+        .anniu {
+            width: 50%;
+            display: inline-block;
+        }
+        
+        .nc {
+            width: 90%;
+            margin: 0 auto;
+        }
+        
+        .ac {
+            width: 38%;
+            text-align: center;
+        }
+        
+        .pear {
+            width: 19%;
+            display: inline-block;
+            text-align: right;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>自定义组卷</h3>
+    <div class="one">
+        <div class="big">
+            <span class="small check">题卡合一</span>
+            <span class="small">题卡分离</span>
+        </div>
+    </div>
+    <div class="tika">
+        <div class="nc">
+            <span class="apple">答题卡纸型</span>
+            <span  class="apple1">A3</span>
+        </div>
+    </div>
+    <div class="all">
+        <div class="tixin">
+            <div class="ac">题型数量选择</div>
+        </div>
+        <div class="two">
+            <span class="pear">选择题</span>
+            <div class="anniu">
+                <button class="pineapple">-</button>
+                <form action="save/php" class="orange">
+                    <input type="text" class="shuru" />
+                </form>
+                <button class="pineapple1">+</button>
+            </div>
+            <span class="he">(0-90道)</span>
+        </div>
+    </div>
+</body>
+
+</html>

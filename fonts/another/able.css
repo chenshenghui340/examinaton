@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+    background: black;
+}
+
+.box {
+    display: flex;
+    height: 75px;
+    width: 75px;
+    background: #e9eae9;
+    border-radius: 5px;
+    border: 5px solid #d5dad5;
+}
+
+.item {
+    width: 10px;
+    height: 10px;
+    background: black;
+    border-radius: 5px;
+}
+
+
+/*一个点，单行左对齐*/
+
+.box1 {
+    display: flex;
+    height: 75px;
+    width: 75px;
+    background: #e9eae9;
+    border-radius: 5px;
+    border: 5px solid #d5dad5;
+    justify-content: center;
+}
+
+.item1 {
+    width: 10px;
+    height: 10px;
+    background: black;
+    border-radius: 5px;
+}
+
+
+/*一个点，单行居中对齐*/
+
+.box2 {
+    display: flex;
+    height: 75px;
+    width: 75px;
+    background: #e9eae9;
+    border-radius: 5px;
+    border: 5px solid #d5dad5;
+    justify-content: flex-end;
+}
+
+.item2 {
+    width: 10px;
+    height: 10px;
+    background: black;
+    border-radius: 5px;
+}
+
+
+/*一个点，单行右对齐*/
+
+.box-jcdq {
+    display: flex;
+    height: 75px;
+    width: 75px;
+    background: #e9eae9;
+    border-radius: 5px;
+    border: 5px solid #d5dad5;
+    align-items: center;
+}
+
+.item-jcdq {
+    width: 10px;
+    height: 10px;
+    background: black;
+    border-radius: 5px;
+}
+
+
+/*一个点，交叉轴居中对齐*/
+
+.box-jcdq1 {
+    display: flex;
+    height: 75px;
+    width: 75px;
+    background: #e9eae9;
+    border-radius: 5px;
+    border: 5px solid #d5dad5;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-jcdq1 {
+    width: 10px;
+    height: 10px;
+    background: black;
+    border-radius: 5px;
+}
+
+.box-jcdq2 {
+    display: flex;
+    height: 75px;
+    width: 75px;
+    background:#e9eae9;
+    border-radius: 5px;
+    border: 5px solid #d5dad5;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.item-jcdq2 {
+    width: 10px;
+    height: 10px;
+    background: black;
+    border-radius: 5px;
+}
+.box-jcdq3 {
+    display: flex;
+    height: 75px;
+    width: 75px;
+    background:#e9eae9;
+    border-radius: 5px;
+    border: 5px solid #d5dad5;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.item-jcdq3 {
+    width: 10px;
+    height: 10px;
+    background: black;
+    border-radius: 5px;
+}
+/*单点结束*/
+.box-double {
+    display: flex;
+    height: 75px;
+    width: 75px;
+    background:#e9eae9;
+    border-radius: 5px;
+    border: 5px solid #d5dad5;
+    justify-content: space-between;
+}
+
+.item-double {
+    width: 10px;
+    height: 10px;
+    background: black;
+    border-radius: 5px;
+}
+.item-doubles {
+    width: 10px;
+    height: 10px;
+    background: black;
+    border-radius: 5px;
+}
+.box-double1 {
+    display: flex;
+    height: 75px;
+    width: 75px;
+    background:#e9eae9;
+    border-radius: 5px;
+    border: 5px solid #d5dad5;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.item-double1 {
+    width: 10px;
+    height: 10px;
+    background: black;
+    border-radius: 5px;
+}
+.item-doubles {
+    width: 10px;
+    height: 10px;
+    background: black;
+    border-radius: 5px;
+}
+.box-double2 {
+    display: flex;
+    height: 75px;
+    width: 75px;
+    background:#e9eae9;
+    border-radius: 5px;
+    border: 5px solid #d5dad5;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item-double2 {
+    width: 10px;
+    height: 10px;
+    background: black;
+    border-radius: 5px;
+}
+.item-doubles {
+    width: 10px;
+    height: 10px;
+    background: black;
+    border-radius: 5px;
+}
+.box-double3 {
+    display: flex;
+    height: 75px;
+    width: 75px;
+    background:#e9eae9;
+    border-radius: 5px;
+    border: 5px solid #d5dad5;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.item-double3 {
+    width: 10px;
+    height: 10px;
+    background: black;
+    border-radius: 5px;
+}
+.item-doubles {
+    width: 10px;
+    height: 10px;
+    background: black;
+    border-radius: 5px;
+}
+/*斜点开始处*/
+.box-double xd {
+    display: flex;
+    height: 75px;
+    width: 75px;
+    background:#e9eae9;
+    border-radius: 5px;
+    border: 5px solid #d5dad5;
+}
+.item-doubles {
+    width: 10px;
+    height: 10px;
+    background: black;
+    border-radius: 5px;
+    align-self: center;
+}

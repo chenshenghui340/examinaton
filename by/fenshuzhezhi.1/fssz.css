@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+.name {
+    display: flex;
+    border-bottom: 1px solid #d4d0ce;
+}
+
+.dance, .dance1 {
+    flex: 0 0 50%;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+}
+
+.dance {
+    border-bottom: 4px solid green;
+    color: green;
+}
+
+.one {
+    flex: 0 0 10%;
+    background: #f2f2f3;
+    border-bottom: 1px solid #d4d0ce;
+}
+
+.two {
+    flex: 0 0 90%;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 28px;
+    margin-bottom: 10px;
+}
+
+.jt {
+    border: 2px solid black;
+    border-right-width: 0;
+    border-top-width: 0;
+    content: "";
+    position: absolute;
+    top: 6%;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    -webkit-transform: translateX(0) rotate(45deg);
+    transform: translateX(0) rotate(45deg);
+    margin-left: 10px;
+}
+
+.you {
+    border: 1px solid #676262;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    content: "";
+    position: absolute;
+    top: 35%;
+    right: 0;
+    width: 10px;
+    height: 10px;
+    -webkit-transform: translateX(0) rotate(45deg);
+    transform: translateX(0) rotate(45deg);
+    margin-right: 15px;
+}
+
+.baby {
+    border-bottom: 1px solid #d4d0ce;
+    height: 45px;
+    line-height: 45px;
+    position: relative;
+}
+
+.baby span {
+    margin-left: 5px;
+    color: #9e9e9e;
+}
+
+.hss {
+    border-bottom: 1px solid #d4d0ce;
+    height: 40px;
+    line-height: 40px;
+    background: #f1efef;
+}
+
+.iconfont {
+    color: #FF9800;
+    margin: 0 5px;
+}
+
+.bc {
+    color: green;
+    font-size: 5px;
+}
+
+.yd {
+    color: #2196f3;
+    flex: 0 0 5%;
+}
+
+.sj {
+    font-size: 20px;
+    color: green;
+}
+
+.ac {
+    font-size: 20px;
+    color: green;
+}
+
+.fx li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    height: 45px;
+    border-bottom: 1px solid #e4e1e1;
+}
+
+span {
+    margin-left: 10px;
+}
+
+.fbt {
+    margin-left: 25px;
+}
+
+.footed {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.left {
+    background: #31c5d8;
+    margin-right: 10px;
+    padding: 10px;
+    float: right;
+    color: white;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.right {
+    background: #10bf10;
+    padding: 10px 15px;
+    margin-right: 10px;
+    border-radius: 10px;
+    float: right;
+    color: white;
+    font-size: 15px;
+}

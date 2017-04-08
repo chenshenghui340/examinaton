@@ -1,0 +1,24 @@
+.box {
+    width: 75px;
+    height: 75px;
+    background: #ded9d9;
+    border-radius: 15px;
+    border: 5px solid #f3efef;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.al, .bl, .cl, .dl {
+    width: 15px;
+    height: 15px;
+    border-radius: 10px;
+    background: black;
+    margin: 5px;
+}
+
+.column {
+    flex-basis: 100%;
+    display: flex;
+    justify-content: space-between;
+}

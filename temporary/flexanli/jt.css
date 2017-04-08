@@ -1,0 +1,13 @@
+.one{
+    border: 10px solid red;
+    border-right-width: 0;
+    border-top-width: 0;
+    content: "";
+    position: absolute;
+    top: 20%;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    transform: translateX(-120%) rotate(45deg);
+    
+}
