@@ -17,38 +17,43 @@
     <div class="two">
         <div class="star">
             <div class="sr">
-            <form action="php">
-                <span>试卷名称</span>
-                <input type="text" class="bj" />
-            </form>
-        </div>
-        <div class="sr">
-            <form action="PHP">
-                <span>答题时间</span>
-                <input type="text" class="dtsj" />
-                <span>出卷人</span>
-                <input type="text" class="cjr" />
-                <span>审核人</span>
-                <input type="text" class="cjr" />
-            </form>
-        </div>
-        <div class="sr">
-            <form action="PHP">
-                <span>考试时间</span>
-                <input type="text" class="examinationtime">
-                <span class="fraction">总分：80分</span>
-            </form>
-        </div>
+                <form action="php">
+                    <span>试卷名称</span>
+                    <input type="text" class="bj" />
+                </form>
+            </div>
+            <div class="sr">
+                <form action="PHP">
+                    <span>答题时间</span>
+                    <input type="number" class="dtsj" />
+                    <span>出卷人</span>
+                    <input type="text" class="cjr" />
+                    <span>审核人</span>
+                    <input type="text" class="cjr" />
+                </form>
+            </div>
+            <div class="sr">
+                <form action="PHP">
+                    <span>考试时间</span>
+                    <input type="date" class="examinationtime">
+                    <span class="fraction">总分：80分</span>
+                </form>
+            </div>
         </div>
         <div class="bigtitle">
             <div class="smalltitle">
                 <span class="smalltitle-left">
-                        <span>题号：21224</span>
+                        <span class="grade">
+                            <span>题号：21224</span>
+                </span>
                 </span>
                 <span class="smalltitle-right">难度：中等</span>
                 <span class="icon">
-                    <i class="iconfont delete">&#xe6d3;</i>
-                    <i class="iconfont download">&#xe617;</i>
+                   <span>
+                       <i class="iconfont delete">&#xe6d3;</i>
+                        <i class="iconfont download">&#xe617;</i>
+                        <i class="iconfont no"></i>
+                    </span>
                 </span>
             </div>
             <div class="alrgenumber">
@@ -69,13 +74,17 @@
         <div class="bigtitle">
             <div class="smalltitle">
                 <span class="smalltitle-left">
-                        <span>题号：33532</span>
+                        <span class="grade">
+                            <span>题号：33532</span>
+                </span>
                 </span>
                 <span class="smalltitle-right">难度：容易</span>
                 <span class="icon">
+                    <span>
                     <i class="iconfont delete">&#xe6d3;</i>
                     <i class="iconfont download">&#xe617;</i>
                     <i class="iconfont download upload">&#xe617;</i>
+                    </span>
                 </span>
             </div>
             <div class="alrgenumber">
@@ -83,10 +92,14 @@
                 <span>下列各对象可以组成集合的是</span>
             </div>
             <ol>
-                <li><span>1</span><p class="spot">.</p>与1非常接近的全体实数</li>
-                <li><span>2</span><p class="spot">.</p>某校全体高一学生</li>
-                <li><span>3</span><p class="spot">.</p>高一年级实力比较好的同学</li>
-                <li><span>4</span><p class="spot">.</p>2016年里约奥运会所有中国体超运动员</li>
+                <li><span>1</span>
+                    <p class="spot">.</p>与1非常接近的全体实数</li>
+                <li><span>2</span>
+                    <p class="spot">.</p>某校全体高一学生</li>
+                <li><span>3</span>
+                    <p class="spot">.</p>高一年级实力比较好的同学</li>
+                <li><span>4</span>
+                    <p class="spot">.</p>2016年里约奥运会所有中国体超运动员</li>
             </ol>
             <div class="function-concept">
                 <span class="first">具体函数定义域</span>
@@ -115,9 +128,8 @@
         <span class="six">6</span>/4
     </div>
     </span>
-    <button class="textcenter">考点
-        <span>7</span>
-        </button>
+    <button class="textcenter">考点7</button>
+    <!--button标签里不能有其他标签只能是文本，刚开始使用strong标签想使7变粗但不起作用可能就是这个原因-->
     <button class="previewpaper">预览试卷</button>
     </div>
     </div>
