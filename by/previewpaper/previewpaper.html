@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>编辑试卷</title>
-    <link rel="stylesheet" href="./editpaper.css">
+    <link rel="stylesheet" href="./previewpaper.css">
     <link rel="stylesheet" href="./iconfont.css">
 </head>
 
@@ -13,36 +13,36 @@
     <div class="one">
         <div class="one-all">
             <span class="arrow"></span>
-            <h3>编辑试卷</h3>
+            <h3>编辑试卷 </h3>
+            <span class="test">考点</span>
         </div>
     </div>
     <div class="two">
-        <div class="two-middle">
-        <div class="star">
-            <div class="sr">
-                <form action="php">
-                    <span>试卷名称</span>
-                    <input type="text" class="bj" />
-                </form>
+        <div class="header">
+            <div class="header-one">
+                <span class="faction">
+                    <i class="iconfont vertical">&#xe759;</i>
+                   <span class="faction-chinese">满分：
+                    <span>74</span>
+                </span>
+                </span>
+                <span class="time">时间：
+                    <span>40分钟</span>
+                </span>
+                <span class="examination">考试日期:
+                    <span>2016-09-08</span>
+                </span>
             </div>
-            <div class="sr">
-                <form action="PHP">
-                    <span>答题时间</span>
-                    <input type="number" class="dtsj" />
-                    <span>出卷人</span>
-                    <input type="text" class="cjr" />
-                    <span>审核人</span>
-                    <input type="text" class="cjr" />
-                </form>
-            </div>
-            <div class="sr">
-                <form action="PHP">
-                    <span>考试时间</span>
-                    <input type="date" class="examinationtime">
-                    <span class="fraction">总分：80分</span>
-                </form>
+            <div class="header-two">
+                <span class="people">出卷人：
+                    <span>夏老师</span>
+                </span>
+                <span class="people">审核人：
+                    <span>夏老师</span>
+                </span>
             </div>
         </div>
+        <div class="middle"></div>
         <div class="bigtitle">
             <div class="smalltitle">
                 <span class="smalltitle-left">
@@ -51,13 +51,6 @@
                 </span>
                 </span>
                 <span class="smalltitle-right">难度：中等</span>
-                <span class="icon">
-                   <span>
-                       <i class="iconfont delete">&#xe6d3;</i>
-                        <i class="iconfont download">&#xe617;</i>
-                        <i class="iconfont no"></i>
-                    </span>
-                </span>
             </div>
             <div class="alrgenumber">
                 <span class="numberone">1</span>
@@ -82,17 +75,11 @@
                 </span>
                 </span>
                 <span class="smalltitle-right">难度：容易</span>
-                <span class="icon">
-                    <span>
-                    <i class="iconfont delete">&#xe6d3;</i>
-                    <i class="iconfont download">&#xe617;</i>
-                    <i class="iconfont download upload">&#xe617;</i>
-                    </span>
-                </span>
             </div>
             <div class="alrgenumber">
                 <span class="numberone">2</span>
                 <span>下列各对象可以组成集合的是</span>
+                <i class="iconfont line">&#xe600;</i>
             </div>
             <ol>
                 <li><span>1</span>
@@ -109,34 +96,16 @@
                 <span>复合函数的定义域</span>
                 <span>抽象函数定义域</span>
             </div>
-            </div>
         </div>
         <!--第二大段结束-->
         <div class="footed">
             <div class="last">
-                <span class="topic">
-                    <div class="topics">选择题</div>
-                     <div class="topic-number">
-        <span class="four">4</span>/8
+
+                <button class="textcenter">返回编辑</button>
+                <!--button标签里不能有其他标签只能是文本，刚开始使用strong标签想使7变粗但不起作用可能就是这个原因-->
+                <button class="previewpaper">指定班级使用</button>
             </div>
-            </span>
-            <span class="topic">
-                    <div class="topics">填空题</div>
-                     <div class="topic-number">
-        <span class="five">5</span>/5
         </div>
-        </span>
-        <span class="topic">
-                    <div class="topics">解答题</div>
-                    <div class="topic-number">
-        <span class="six">6</span>/4
-    </div>
-    </span>
-    <button class="textcenter">考点7</button>
-    <!--button标签里不能有其他标签只能是文本，刚开始使用strong标签想使7变粗但不起作用可能就是这个原因-->
-    <button class="previewpaper">预览试卷</button>
-    </div>
-    </div>
     </div>
 </body>
 

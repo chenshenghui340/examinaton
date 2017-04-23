@@ -1,0 +1,105 @@
+<!--<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>清除计时器</title>
+    <script type="text/javascript">
+function clock(){
+    var mytime=new Date();
+    document.getElementById("clock").value=mytime;
+}
+var i=setInterval(clock,100);
+    </script>
+</head>
+
+<body>
+    <form action="php">
+        <input type="text" id="clock" />
+        <input type="button" value="停止" onclick="clearInterval(i)" />
+    </form>
+</body>
+
+</html>-->
+<!--<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>取消settiomeout计时器</title>
+    <script type="text/javascript">
+        var num = 0, i;
+        function timecount() {
+            document.getElementById("txt").value = num;
+            var i = setTimeout(timecount, 1000);
+            num = num + 1;
+        }
+        setTimeout(timecount, 1000);
+        function stopcount() {
+            clearTimeout(i);
+        }
+    </script>
+</head>
+
+<body>
+    <form action="php">
+        <input type="text" id="txt" />
+        <input type="button" value="stop" onclick="stopcount()">
+    </form>
+</body>
+
+</html>-->
+<!--<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script type="text/javascript">
+        var num = 0;
+        var i;
+        function timecount() {
+            document.getElementById('txt').value = num;
+            num = num + 1;
+            i = setTimeout(timecount, 1000);
+        }
+        setTimeout(timecount, 1000);
+        function stopcount() {
+            clearTimeout(i);
+        }
+    </script>
+</head>
+
+<body>
+    <input type="text" id="txt" />
+    <input type="button" value="stop" onclick="stopcount()">
+</body>
+
+</html>-->
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script type="text/javascript">
+    var num=0,i;
+    function timecount(){
+        document.getElementById('txt').value=num;
+        num=num+1;
+        //i=setTimeout(timecount,1000);
+    }
+    setTimeout(timecount,1000);
+    function stopcount(){
+        clearTimeout(i);
+    }
+    </script>
+</head>
+<body>
+    <input type="text" id="txt"/>
+    <input type="button" value="stop" onclick="stopcount()">
+</body>
+</html>
