@@ -140,6 +140,7 @@ ol span {
     bottom: 0;
     right: 0;
     left: 0;
+    flex: 0 0 10%;
     background: #f5f3f3;
 }
 

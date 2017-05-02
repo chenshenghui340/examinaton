@@ -34,7 +34,7 @@ body {
 }
 
 .two {
-    flex: 0 0 90%;
+    flex: 0 0 80%;
 }
 
 h3 {
@@ -137,6 +137,7 @@ span {
 .footed {
     margin-top: 10px;
     margin-bottom: 5px;
+    flex: 0 0 10%;
 }
 
 .left {

@@ -10,18 +10,16 @@ body {
 }
 
 .one {
-    flex: 0 0 10%;
+    flex: 0 0 8%;
     background: #f5f2f2;
 }
 
 .two {
-    flex: 0 0 90%;
+    flex: 0 0 80%;
 }
 
 h3 {
     text-align: center;
-    margin-top: 30px;
-    margin-bottom: 10px;
 }
 
 .header {
@@ -123,18 +121,20 @@ ol span {
 }
 
 .footed {
-    position: fixed;
-    width: 100%;
-    bottom: 10px;
-    right: 0;
-    left: 0;
     background: #f5f3f3;
+    flex: 0 0 12%;
+    /*position: fixed;
+    width: 100%;
+    bottom: 0;
+    right: 0;
+    left: 0;*/
 }
 
 .last {
     display: flex;
     justify-content: space-around;
     margin: 0 10px;
+    
 }
 
 .textcenter {
@@ -175,21 +175,14 @@ ol span {
     content: "";
     width: 10px;
     height: 10px;
-    /*position: absolute;
-    left: 10px;
-    top: -125%;*/
-    transform: translateY(35px) rotate(45deg);
+    transform:rotate(45deg);
 }
 
-.test {
-    transform: translateY(40px);
-    height: 0;
-}
 
 .one-all {
     display: flex;
     justify-content: space-between;
-    margin: 0 10px;
+    margin: 25px 10px 10px;
 }
 
 .vertical {
@@ -197,8 +190,7 @@ ol span {
 }
 
 .middle {
-    height: 10px;
-    width: 97%;
+    height: 7px;
     background: #f5f2f2;
     border: 1px solid #e4dede;
 }
