@@ -10,12 +10,13 @@ body {
 }
 
 .one {
-    flex: 0 0 8%;
+    flex-basis: 60px;/*用大哥的方法把头部写成固定来实现底部固定*/
     background: #f5f2f2;
 }
 
 .two {
-    flex: 0 0 80%;
+    flex: 1;/*用大哥的方法实现底部固定*/
+    overflow: auto;/*添加滚动条*/
 }
 
 h3 {
@@ -122,7 +123,7 @@ ol span {
 
 .footed {
     background: #f5f3f3;
-    flex: 0 0 12%;
+    flex-basis: 60px;/*用大哥的方法把底部写成固定来实现底部固定*/
     /*position: fixed;
     width: 100%;
     bottom: 0;
@@ -183,6 +184,7 @@ ol span {
     display: flex;
     justify-content: space-between;
     margin: 25px 10px 10px;
+    align-items: center;
 }
 
 .vertical {
