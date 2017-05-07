@@ -81,9 +81,8 @@ h3 {
 
 .lost {
     font-size: 30px;
-    padding: 0 10px;
     display: inline-block;
-    transform: translateY(3px);
+    transform: translateY(5px);
 }
 
 .anniu {

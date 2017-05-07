@@ -24,11 +24,11 @@ body {
 }
 
 .middle {
-    flex: 0 0 80%;
+    flex: 0 0 78%;
 }
 
 .footed {
-    flex: 0 0 10%;
+    flex: 0 0 12%;
 }
 
 h3 {
@@ -103,7 +103,7 @@ h3 {
 }
 
 button {
-    flex-basis: 20%;
+    flex-basis: 75px;
     border: 1px solid #bfbcbc;
     height: 30px;
     line-height: 30px;
@@ -126,9 +126,11 @@ button {
 }
 
 .scoringmethod {
-    height: 30px;
-    line-height: 30px;
-    border-bottom: 1px solid gray;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 1px solid #ccc9c9;
+    height: 40px;
 }
 
 .marking {
@@ -137,7 +139,7 @@ button {
 }
 
 .marking span {
-    border: 1px solid gray;
+    border: 1px solid #ccc9c9;
     border-radius: 3px;
     margin: 0 10px;
     padding: 5px;
@@ -158,9 +160,12 @@ button {
 .right {
     color: green;
     display: inline-block;
-    transform: translateY(-8px);
+    transform: translateY(-3px);
+    font-size: 23px;
 }
 
 .book {
     color: #f1950e;
+    font-size: 25px;
+    margin: 0 10px;
 }

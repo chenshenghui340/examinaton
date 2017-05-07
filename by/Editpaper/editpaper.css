@@ -207,11 +207,7 @@ ol span {
     justify-content: space-between;
 }
 
-.iconfont {
-    font-size: 30px;
-}
-
-.delete, .download,.no {
+.delete, .download, .no {
     display: inline-block;
     width: 40px;
     height: 40px;
@@ -220,6 +216,7 @@ ol span {
     color: white;
     line-height: 40px;
     transform: translateY(5px);
+    font-size: 30px;
 }
 
 .delete {
