@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background: #f3f3ef;
+    flex-basis: 80px;
+}
+
+.arrow {
+    border: 3px solid gray;
+    border-right-width: inherit;
+    border-top-width: inherit;
+    width: 10px;
+    height: 10px;
+    content: "";
+    transform: rotate(45deg);
+}
+
+.header-one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 35px 10px 10px;
+}
+
+h3 {
+    margin: 0;
+}
+
+.funnel {
+    font-size: 30px;
+}
+
+.selecttion {
+    display: flex;
+    text-align: center;
+    height: 35px;
+    align-items: center;
+    border-bottom: 1px solid #e0dcdc;
+    color: #8c8c8a;
+}
+
+.selecttion div {
+    flex-basis: 33.33%;
+    border-right: 1px solid #e8e6e6;
+}
+
+.test {
+    overflow: hidden;
+    zoom: 1;
+}
+
+.test div {
+    width: 90%;
+    float: right;
+}
+
+.right {
+    width: 10%;
+    display: inline-block;
+    text-align: center;
+}
+
+.right, .testright, .selectiontest {
+    color: #12cbe2;
+}
