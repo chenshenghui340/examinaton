@@ -10,13 +10,16 @@ body {
 }
 
 .one {
-    flex-basis: 60px;/*用大哥的方法把头部写成固定来实现底部固定*/
+    flex-basis: 60px;
+    /*用大哥的方法把头部写成固定来实现底部固定*/
     background: #f5f2f2;
 }
 
 .two {
-    flex: 1;/*用大哥的方法实现底部固定*/
-    overflow: auto;/*添加滚动条*/
+    flex: 1;
+    /*用大哥的方法实现底部固定*/
+    overflow: auto;
+    /*添加滚动条*/
 }
 
 h3 {
@@ -123,7 +126,8 @@ ol span {
 
 .footed {
     background: #f5f3f3;
-    flex-basis: 65px;/*用大哥的方法把底部写成固定来实现底部固定*/
+    flex-basis: 65px;
+    /*用大哥的方法把底部写成固定来实现底部固定*/
     /*position: fixed;
     width: 100%;
     bottom: 0;
@@ -135,7 +139,6 @@ ol span {
     display: flex;
     justify-content: space-around;
     margin: 5px 10px 0;
-    
 }
 
 .textcenter {
@@ -176,9 +179,8 @@ ol span {
     content: "";
     width: 10px;
     height: 10px;
-    transform:rotate(45deg);
+    transform: rotate(45deg);
 }
-
 
 .one-all {
     display: flex;
@@ -195,4 +197,9 @@ ol span {
     height: 7px;
     background: #f5f2f2;
     border: 1px solid #e4dede;
+}
+
+.line {
+    transform: translateY(3px);
+    display: inline-block;
 }

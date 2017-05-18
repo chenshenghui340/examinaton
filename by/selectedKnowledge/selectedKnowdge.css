@@ -35,19 +35,24 @@ h3 {
     transform: rotate(45deg);
 }
 
+.trash {
+    font-size: 30px;
+    color: #716969;
+}
+
 .course {
     border-bottom: 1px solid #eae4e4;
+    display: flex;
+    justify-content: space-between;
 }
 
 .course div {
-    margin-left: 20px;
     height: 40px;
     line-height: 40px;
 }
 
-.course div {
-    width: 83%;
-    display: inline-block;
+.outside {
+    flex-basis: 70%;
 }
 
 li {
@@ -56,5 +61,13 @@ li {
 
 .right {
     font-size: 20px;
-    color: green;
+    color: red;
+    align-self: center;
+    margin-right: 30px;
+}
+
+.number {
+    float: left;
+    margin-left: 10px;
+    color: #53dbec;
 }

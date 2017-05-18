@@ -2,7 +2,7 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
 <svg xmlns="http://www.w3.org/2000/svg">
 <metadata>
-Created by FontForge 20120731 at Sat May  6 20:33:57 2017
+Created by FontForge 20120731 at Thu May 11 14:54:52 2017
  By admin
 </metadata>
 <defs>
@@ -75,6 +75,9 @@ t9 21l204 206q9 9 23 9q13 0 22 -9z" />
     <glyph glyph-name="jiahao" unicode="&#xe6e7;" 
 d="M511.5 832q-91.5 0 -174.5 -35.5t-143 -95.5t-95.5 -143t-35.5 -174.5t35.5 -174.5t95.5 -143t143 -95.5t174.5 -35.5t174.5 35.5t143 95.5t95.5 143t35.5 174.5t-35.5 174.5t-95.5 143t-143 95.5t-174.5 35.5zM511.5 -1q-104.5 0 -193 51.5t-140 140t-51.5 193t51.5 193
 t140 140t193 51.5t193 -51.5t140 -140t51.5 -193t-51.5 -193t-140 -140t-193 -51.5zM765 421h-216v216h-75v-216h-216v-75h216v-216h75v216h216v75z" />
+    <glyph glyph-name="chahao" unicode="&#xe6de;" 
+d="M866 -24q-21 0 -37 16l-709 709q-16 15 -16 37t15.5 37.5t37.5 15.5t37 -16l709 -709q16 -16 16 -37.5t-15.5 -37t-37.5 -15.5v0zM866 -24zM157 -24q-22 0 -37.5 15.5t-15.5 37t16 37.5l709 709q16 16 37.5 16t37 -15.5t15.5 -37.5t-15 -37l-710 -709q-15 -16 -37 -16v0z
+M157 -24z" />
     <glyph glyph-name="xiasanjiao-copy" unicode="&#xe604;" 
 d="M256 512l256 -321l257 321h-513z" />
     <glyph glyph-name="jiantou-copy-copy-copy" unicode="&#xe620;" 
