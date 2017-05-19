@@ -190,7 +190,12 @@ ol span {
 }
 
 .vertical {
-    color: #f5815d;
+    width: 4px;
+    height: 15px;
+    background: #f5815d;
+    display: inline-block;
+    border-radius: 5px;
+    transform: translateY(2px);
 }
 
 .middle {

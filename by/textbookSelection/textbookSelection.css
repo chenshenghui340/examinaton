@@ -6,19 +6,19 @@ body {
 }
 
 .one {
-    flex: 10%;
+    flex: 6%;
     background: #f1efef;
 }
 
 .two {
-    flex: 90%;
+    flex: 94%;
 }
 
 .one-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 30px 10px 10px;
+    margin: 25px 10px 5px;
 }
 
 h3 {
