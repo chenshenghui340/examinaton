@@ -28,34 +28,34 @@ body {
 }
 
 .one {
-    flex: 0 0 10%;
+    flex: 0 0 6%;
     background: #f2f2f3;
     border-bottom: 1px solid #d4d0ce;
 }
 
 .two {
-    flex: 0 0 80%;
+    flex: 0 0 84%;
+    overflow: auto;
 }
 
-h3 {
+.one-all {
     text-align: center;
-    margin-top: 28px;
-    margin-bottom: 10px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
 }
 
 .jt {
-    border: 2px solid black;
+    border: 2px solid #545353;
     border-right-width: 0;
     border-top-width: 0;
     content: "";
-    position: absolute;
-    top: 6%;
-    left: 0;
     width: 10px;
     height: 10px;
-    -webkit-transform: translateX(0) rotate(45deg);
-    transform: translateX(0) rotate(45deg);
-    margin-left: 10px;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
 }
 
 .you {

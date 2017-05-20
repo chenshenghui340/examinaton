@@ -10,19 +10,24 @@ body {
 }
 
 .one {
-    flex: 0 0 10%;
+    flex: 0 0 6%;
     background: #f5f2f2;
     position: relative;
 }
 
 .two {
-    flex: 0 0 90%;
+    flex: 0 0 94%;
 }
 
 h3 {
     text-align: center;
-    margin-top: 30px;
-    margin-bottom: 10px;
+}
+
+.one-all {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 10px 10px;
 }
 
 .sr {
@@ -247,8 +252,5 @@ ol span {
     content: "";
     width: 10px;
     height: 10px;
-    position: absolute;
-    left: 10px;
-    top: -115%;
-    transform: translateY(120px) rotate(45deg);
+    transform:rotate(45deg);
 }

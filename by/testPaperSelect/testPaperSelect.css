@@ -7,7 +7,7 @@ body {
 
 .header {
     background: #f3f3ef;
-    flex-basis: 65px;
+    flex-basis: 50px;
 }
 
 .arrow {
@@ -24,7 +24,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 30px 10px 0;
+    margin: 15px 10px 0;
 }
 
 h3 {

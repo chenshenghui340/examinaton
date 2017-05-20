@@ -12,17 +12,17 @@ body {
 
 h3 {
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 10px;
+    margin-top: 15px;
+    margin-bottom: 5px;
 }
 
 .one {
-    flex: 0 0 8%;
+    flex: 0 0 6%;
     background: #f3f0f0;
 }
 
 .two {
-    flex: 0 0 92%;
+    flex: 0 0 94%;
 }
 
 .ax {

@@ -6,19 +6,19 @@ body {
 }
 
 .one {
-    flex-basis: 6%;
+    flex-basis: 8%;
     background: #f1efef;
 }
 
 .two {
-    flex-basis: 94%;
+    flex-basis: 92%;
 }
 
 .one-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 25px 10px 5px;
+    margin: 15px 10px 5px;
 }
 
 h3 {
@@ -40,9 +40,14 @@ h3 {
     color: #716969;
 }
 
+.alrgenumber {
+    margin: 10px 0;
+}
+
 ol {
     margin: 0;
-    padding: 0;
+    padding: 0 0 10px 0;
+    border-bottom: 1px solid #efecec;
 }
 
 li {
