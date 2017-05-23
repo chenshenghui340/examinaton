@@ -10,20 +10,28 @@ body {
 }
 
 .one {
-    flex: 0 0 7%;
+    flex-basis: 50px;
     background: #f3f2f2;
     border-bottom: 1px solid #ece8e8;
 }
 
+.first {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
 .two {
-    flex: 0 0 80%;
+    flex:1;
+    overflow: auto;
 }
 
 h3 {
     text-align: center;
 }
 
-.first {
+.one-all {
     display: flex;
     align-items: center;
     margin: 15px 10px 5px;
@@ -175,10 +183,9 @@ ol {
 }
 
 .end {
-    flex: 0 0 10%;
+    flex-basis: 60px;
     position: fixed;
-    width: 100%;
-    bottom: 0;
+    bottom: 12px;
     right: 0;
     left: 0;
 }
@@ -189,7 +196,6 @@ ol {
     align-items: center;
     justify-content: space-around;
     background: #efefef;
-    padding: 5px 0;
 }
 
 .an button {
@@ -223,7 +229,7 @@ ol {
     content: "";
     width: 10px;
     height: 10px;
-    transform:rotate(45deg);
+    transform: rotate(45deg);
 }
 
 .funnel {

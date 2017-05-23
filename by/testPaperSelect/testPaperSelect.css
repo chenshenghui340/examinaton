@@ -27,6 +27,13 @@ body {
     margin: 15px 10px 0;
 }
 
+.first {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
 h3 {
     margin: 0;
 }

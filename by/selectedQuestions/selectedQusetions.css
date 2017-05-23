@@ -6,12 +6,13 @@ body {
 }
 
 .one {
-    flex-basis: 8%;
+    flex-basis: 50px;
     background: #f1efef;
 }
 
 .two {
-    flex-basis: 92%;
+    overflow: auto;
+    flex: 1;
 }
 
 .one-header {
@@ -38,6 +39,13 @@ h3 {
 .trash {
     font-size: 30px;
     color: #716969;
+}
+
+.first {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
 }
 
 .alrgenumber {

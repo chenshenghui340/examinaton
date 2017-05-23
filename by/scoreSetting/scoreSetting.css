@@ -17,12 +17,15 @@ h3 {
 }
 
 .one {
-    flex: 0 0 6%;
+    flex-basis: 45px;
     background: #f3f0f0;
 }
 
-.two {
-    flex: 0 0 94%;
+.first {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
 }
 
 .ax {
@@ -130,8 +133,11 @@ input {
 
 .footer {
     text-align: center;
-    margin-top: 25px;
-    margin-bottom: 20px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    flex-basis: 42px;
 }
 
 .footer span {
@@ -144,4 +150,16 @@ input {
     line-height: 40px;
     background: green;
     color: white;
+}
+
+.footer-end {
+    position: absolute;
+    bottom: 20px;
+    right: 0;
+    left: 0;
+}
+
+.two {
+    flex: 1;
+    overflow: auto;
 }

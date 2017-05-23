@@ -28,13 +28,13 @@ body {
 }
 
 .one {
-    flex: 0 0 6%;
+    flex-basis: 45px;
     background: #f2f2f3;
     border-bottom: 1px solid #d4d0ce;
 }
 
 .two {
-    flex: 0 0 84%;
+    flex: 1;
     overflow: auto;
 }
 
@@ -58,31 +58,40 @@ body {
     transform: rotate(45deg);
 }
 
+.first {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
 .you {
     border: 1px solid #676262;
     border-bottom-width: 0;
     border-left-width: 0;
     content: "";
-    position: absolute;
-    top: 35%;
-    right: 0;
     width: 10px;
     height: 10px;
-    -webkit-transform: translateX(0) rotate(45deg);
-    transform: translateX(0) rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
     margin-right: 15px;
 }
 
 .baby {
     border-bottom: 1px solid #d4d0ce;
-    height: 45px;
     line-height: 45px;
-    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .baby span {
     margin-left: 5px;
     color: #9e9e9e;
+}
+
+#chinese {
+    color: black;
 }
 
 .hss {
@@ -135,9 +144,14 @@ span {
 }
 
 .footed {
-    margin-top: 10px;
-    margin-bottom: 5px;
-    flex: 0 0 10%;
+    flex-basis: 45px;
+}
+
+.footed-end {
+    position: absolute;
+    bottom: 12px;
+    right: 0;
+    left: 0;
 }
 
 .left {

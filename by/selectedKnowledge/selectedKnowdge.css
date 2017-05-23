@@ -6,12 +6,20 @@ body {
 }
 
 .one {
-    flex: 6%;
+    flex-basis: 55px;
     background: #f1efef;
 }
 
 .two {
-    flex: 94%;
+    overflow: auto;
+    flex: 1;
+}
+
+.first {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
 }
 
 .one-header {

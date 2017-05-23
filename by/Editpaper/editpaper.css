@@ -10,13 +10,13 @@ body {
 }
 
 .one {
-    flex: 0 0 6%;
+    flex-basis: 50px;
     background: #f5f2f2;
-    position: relative;
 }
 
 .two {
-    flex: 0 0 94%;
+    overflow: auto;
+    flex: 1;
 }
 
 h3 {
@@ -28,6 +28,13 @@ h3 {
     justify-content: space-between;
     align-items: center;
     margin: 15px 10px 10px;
+}
+
+.one-first {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
 }
 
 .sr {
@@ -141,11 +148,10 @@ ol span {
 
 .footed {
     position: fixed;
-    width: 100%;
     bottom: 0;
     right: 0;
     left: 0;
-    flex: 0 0 10%;
+    flex-basis: 56px;
     background: #f5f3f3;
 }
 
@@ -252,5 +258,5 @@ ol span {
     content: "";
     width: 10px;
     height: 10px;
-    transform:rotate(45deg);
+    transform: rotate(45deg);
 }

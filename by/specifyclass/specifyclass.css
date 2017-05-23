@@ -11,7 +11,7 @@ body {
 }
 
 .header {
-    flex: 0 0 6%;
+    flex-basis: 45px;
     background: #f3f3f3;
 }
 
@@ -23,12 +23,24 @@ body {
     margin-bottom: 5px;
 }
 
+.first {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
 .middle {
-    flex: 0 0 82%;
+    flex: 1;
+    overflow: auto;
 }
 
 .footed {
-    flex: 0 0 12%;
+    flex-basis: 31px;
+    position: absolute;
+    bottom: 30px;
+    right: 0;
+    left: 0;
 }
 
 h3 {
