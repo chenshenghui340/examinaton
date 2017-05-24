@@ -4,7 +4,6 @@
 }
 
 body {
-    border: 3px solid black;
     display: flex;
     flex-direction: column;
     align-content: space-between;
@@ -36,6 +35,7 @@ body {
 .two {
     flex: 1;
     overflow: auto;
+    margin-bottom: 30px;
 }
 
 .one-all {
@@ -145,13 +145,17 @@ span {
 
 .footed {
     flex-basis: 45px;
-}
-
-.footed-end {
-    position: absolute;
+    position: fixed;
     bottom: 12px;
     right: 0;
     left: 0;
+}
+
+.footed-end {
+    /* position: fixed;
+    bottom: 12px;
+    right: 0;
+    left: 0;*/
 }
 
 .left {

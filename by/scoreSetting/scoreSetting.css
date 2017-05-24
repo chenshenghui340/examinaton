@@ -7,7 +7,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    border: 3px solid black;
 }
 
 h3 {
@@ -82,15 +81,22 @@ h3 {
     color: #ff9800;
 }
 
+.lost, .reduce {
+    font-size: 25px;
+    line-height: 47px;
+}
+
 .lost {
-    font-size: 30px;
-    display: inline-block;
-    transform: translateY(5px);
+    margin-left: 5px;
+}
+
+.reduce {
+    margin-right: 5px;
 }
 
 .anniu {
     clear: left;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-left: 35px;
 }
 
@@ -108,6 +114,7 @@ input {
     border: 1px solid #9e9e9e;
     border-bottom-color: white;
     border-top-color: white;
+    transform: translateY(-5px);
 }
 
 .an {
@@ -162,4 +169,5 @@ input {
 .two {
     flex: 1;
     overflow: auto;
+    margin-bottom: 90px;
 }

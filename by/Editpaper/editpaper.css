@@ -17,6 +17,7 @@ body {
 .two {
     overflow: auto;
     flex: 1;
+    margin-bottom: 60px;
 }
 
 h3 {
@@ -159,7 +160,6 @@ ol span {
     display: flex;
     justify-content: space-around;
     margin: 0 10px;
-    padding: 7px 0;
 }
 
 .topic {
@@ -167,7 +167,7 @@ ol span {
 }
 
 .textcenter {
-    padding: 0 10px;
+    padding: 12px 10px;
     background: #1caaea;
 }
 
@@ -177,7 +177,7 @@ ol span {
 }
 
 .previewpaper {
-    padding: 0 18px;
+    padding: 12px 18px;
     background: #1bd61b;
 }
 

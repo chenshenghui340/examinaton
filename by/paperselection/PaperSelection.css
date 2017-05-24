@@ -6,7 +6,6 @@
 body {
     display: flex;
     flex-direction: column;
-    border: 3px solid black;
 }
 
 .one {
@@ -23,7 +22,7 @@ body {
 }
 
 .two {
-    flex:1;
+    flex: 1;
     overflow: auto;
 }
 
@@ -185,7 +184,7 @@ ol {
 .end {
     flex-basis: 60px;
     position: fixed;
-    bottom: 12px;
+    bottom: 0;
     right: 0;
     left: 0;
 }
