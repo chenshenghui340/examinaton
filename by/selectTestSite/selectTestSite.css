@@ -35,7 +35,7 @@ body {
 .two {
     flex: 1;
     overflow: auto;
-    margin-bottom: 30px;
+    margin-bottom: 70px;
 }
 
 .one-all {
@@ -146,34 +146,27 @@ span {
 .footed {
     flex-basis: 45px;
     position: fixed;
-    bottom: 12px;
+    bottom: 0;
     right: 0;
     left: 0;
+    padding-bottom: 12px;
+    text-align: right;
 }
 
-.footed-end {
-    /* position: fixed;
-    bottom: 12px;
-    right: 0;
-    left: 0;*/
-}
-
-.left {
+.footed-left {
     background: #31c5d8;
     margin-right: 10px;
     padding: 10px;
-    float: right;
     color: white;
     font-size: 15px;
     border-radius: 10px;
 }
 
-.right {
+.footed-right {
     background: #10bf10;
     padding: 10px 15px;
     margin-right: 10px;
     border-radius: 10px;
-    float: right;
     color: white;
     font-size: 15px;
 }

@@ -232,4 +232,14 @@ ol {
 
 .middle-main {
     background: gray;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+}
+
+.middle-all {
+    overflow: auto;
+    flex: 1;
 }
