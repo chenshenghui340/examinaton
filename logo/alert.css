@@ -1,0 +1,45 @@
+*{padding: 0;margin: 0;}
+/* #body{
+    animation: body forwards;
+}
+@keyframes body{
+to{  background-color: gray;}
+} */
+#alert{
+    width: 400px;
+    height: 160px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    display: none;
+    animation: 1s move forwards ease-in-out;
+    position: fixed;
+    top: 0;
+    left: 35%;
+}
+@keyframes move {
+    to{
+        position: fixed;
+        top: 70px;
+        left: 35%;
+      background-color: white;
+      z-index: 1;
+    }
+}
+.prompt{margin: 10px;}
+.content{
+    text-align: center;
+}
+.button{
+    align-self: flex-end;
+    line-height: 50px;
+}
+#sure,#cancel {
+    border: 1px solid #03A9F4;
+    background: #0ef50e;
+    padding:5px 10px;
+    color: white;
+    border-radius: 5px;
+    margin: 0 10px;
+}

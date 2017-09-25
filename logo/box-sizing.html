@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style type="text/css">
+
+    </style>
+</head>
+
+<body>
+    <div><b id="oldnode">JavaScript</b>是一个很常用的技术，为网页添加动态效果。</div>
+    <a href="javascript:replaceMessage()"> 将加粗改为斜体</a>
+    <script type="text/javascript">
+        function replaceMessage() {
+            var b = document.getElementById("oldnode");
+            var li = document.createElement("li");
+            var js = document.createTextNode("js");
+            li.appendChild(js)
+            b.parentNode.replaceChild(li, b)
+        }
+        var a = document.getElementById("oldnode");
+        console.info(a);
+        // function replaceMessage(){
+        //     alert("welcome!");
+        // }
+    </script>
+</body>
+
+</html>

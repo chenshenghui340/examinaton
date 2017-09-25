@@ -1,0 +1,191 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>设置试卷属性</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .header-all {
+            background: #f7f7f7;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 40px;
+            margin: 0 10px;
+        }
+
+        .middle {
+            margin: 0 10px;
+        }
+
+        .cell-wrap {
+            border-bottom: 1px solid rgb(237, 237, 245);
+            font-size: 15px;
+        }
+
+        .cell-container {
+            width: 100%;
+            padding: 5px;
+            margin: 0;
+        }
+
+        ul li {
+            list-style: none;
+            display: inline-block;
+            line-height: 30px;
+        }
+
+        .cell-title {
+            width: 20%;
+        }
+
+        .cell-value {
+            width: 56%;
+            text-align: center;
+        }
+
+        .cell-icon {
+            width: 20%;
+            position: relative;
+        }
+
+        .inner-icon:after {
+            border: 2px solid rgb(200, 200, 205);
+            border-bottom-width: 0;
+            border-left-width: 0;
+            content: " ";
+            top: 50%;
+            right: 0px;
+            position: absolute;
+            width: 5px;
+            height: 5px;
+            -webkit-transform: translateY(-132%) rotate(45deg);
+            -ms-transform: translateY(-132%) rotate(45deg);
+            transform: translateY(-132%) rotate(45deg);
+        }
+
+        .arrow {
+            border: 3px solid #908b8b;
+            border-top-width: 0;
+            border-right-width: 0;
+            content: " ";
+            width: 10px;
+            height: 10px;
+            -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header-all">
+        <div class="header">
+            <div class="arrow"></div>
+            <h3>设置试卷属性</h3>
+            <span></span>
+        </div>
+    </div>
+    <div class="middle">
+        <div class="cell-wrap">
+            <ul class="cell-container">
+                <li class="cell-title">
+                    选择题源
+                </li>
+                <li class="cell-value">
+                    请编辑
+                </li>
+                <li class="cell-icon">
+                    <span class="inner-icon"></span>
+                </li>
+            </ul>
+        </div>
+        <div class="cell-wrap">
+            <ul class="cell-container">
+                <li class="cell-title">
+                    选择题源
+                </li>
+                <li class="cell-value">
+                    请编辑
+                </li>
+                <li class="cell-icon">
+                    <span class="inner-icon"></span>
+                </li>
+            </ul>
+        </div>
+        <div class="cell-wrap">
+            <ul class="cell-container">
+                <li class="cell-title">
+                    试卷名称
+                </li>
+                <li class="cell-value">
+                    请编辑
+                </li>
+                <li class="cell-icon">
+                    <span class="inner-icon"></span>
+                </li>
+            </ul>
+        </div>
+        <div class="cell-wrap">
+            <ul class="cell-container">
+                <li class="cell-title">
+                    时间
+                </li>
+                <li class="cell-value">
+                    45分钟
+                </li>
+                <li class="cell-icon">
+                    <span class="inner-icon"></span>
+                </li>
+            </ul>
+        </div>
+        <div class="cell-wrap">
+            <ul class="cell-container">
+                <li class="cell-title">
+                    考试日期
+                </li>
+                <li class="cell-value">
+                    2016-11-21
+                </li>
+                <li class="cell-icon">
+                    <span class="inner-icon"></span>
+                </li>
+            </ul>
+        </div>
+        <div class="cell-wrap">
+            <ul class="cell-container">
+                <li class="cell-title">
+                    出卷人
+                </li>
+                <li class="cell-value">
+                    小何老师
+                </li>
+                <li class="cell-icon">
+                    <span class="inner-icon"></span>
+                </li>
+            </ul>
+        </div>
+        <div class="cell-wrap">
+            <ul class="cell-container">
+                <li class="cell-title">
+                    审核人
+                </li>
+                <li class="cell-value">
+                    选题
+                </li>
+                <li class="cell-icon">
+                    <span class="inner-icon"></span>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>

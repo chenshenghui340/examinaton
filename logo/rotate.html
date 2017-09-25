@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <style type="text/css">
+        #box {
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            background: #f60;
+        }
+
+        #box:hover {
+            -webkit-animation: move 2s linear;
+            -ms-animation: move 2s linear;
+            -moz-animation: move 2s linear;
+            -o-animation: move 2s linear;
+            animation: move 2s linear;
+            animation-fill-mode: forwards;
+            -webkit-animation-fill-mode: forwards;
+        }
+
+        @keyframes move {
+            from {
+                left: 0;
+                top: 0;
+            }
+            to {
+                left: 100px;
+                top: 100px;
+            }
+        }
+    </style>
+    <div id="box"></div>
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./alert.css">
+</head>
+
+<body id="body">
+    <button onclick="popPrompt()">点击弹出小窗口</button>
+    <div id="alert">
+        <div class="prompt">提示：</div>
+        <div class="content">显示成功</div>
+        <div class="button">
+            <button id="sure" onclick="cancel()">确定</button>
+            <button id="cancel" onclick="cancel()">取消</button>
+        </div>
+    </div>
+    <script type="text/javascript">
+        function popPrompt() {
+            var alert = document.getElementById("alert");
+            var body = document.getElementById("body");
+            alert.style.display = "flex";
+            body.style.backgroundColor="#dad8d8";
+            console.info(alert);
+        }
+        function cancel() {
+            var alert = document.getElementById("alert");
+            alert.style.display = "none";
+        }
+    </script>
+</body>
+
+</html>

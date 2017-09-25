@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script type="text/javascript">
+        /*
+         * param1 Array 
+         * param2 Array
+         * return true or false
+         */
+        var param1 = [1, 3, 4, true, "me"];
+        var param2 = [2, 3, 6, false, "lost"];
+        function arraysSimilar(arr1, arr2) {
+            var len1 = arr1.length;
+            var len2 = arr2.length;
+            for (var i = 0; i < len1; i++) {
+                arr1[i];
+                // console.info(arr1[i]);
+                // document.write(arr1[i] + "<br/>");
+            }
+            for (var j = 0; j < len2; j++) {
+                arr2[j];
+                // console.info(arr2[j]);
+                // document.write(arr2[j] + "<br/>");
+            }
+            debugger
+            var arr1Type = typeof arr1[i];
+            var arr2Type = typeof arr2[j];
+            if (arr1Type == arr2Type) {
+                document.write("通过");
+            } else {
+                document.write("不通过");
+            }
+        }
+        var a = arraysSimilar(param1, param2);
+    </script>
+    <script src="testData.js"></script>
+</body>
+
+</html>
